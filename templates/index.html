@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Loan Prediction System</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <!-- MATRIX BACKGROUND -->
+    <div class="matrix-bg"></div>
+
+    <!-- CYBER BACKGROUND -->
+    <div class="cyber-bg">
+
+        <div class="cyber-column">
+
+[ SYSTEM INITIALIZED ]
+
+DecisionTree.fit()
+DecisionTree.predict()
+DecisionTreeClassifier()
+loan_prediction_model
+credit_score_analysis
+income_verification
+feature_engineering
+data_preprocessing
+missing_value_check
+dataset_loaded
+dataset_verified
+dataset_ready
+
+train_test_split()
+model_training
+model_validation
+cross_validation
+feature_selection
+accuracy_score
+precision_score
+recall_score
+confusion_matrix
+classification_report
+
+applicant_profile
+financial_assessment
+risk_analysis
+loan_amount_check
+income_validation
+credit_score_check
+employment_status
+debt_to_income_ratio
+repayment_capacity
+
+predict()
+predict_proba()
+model_loaded
+model_saved
+loan_model.pkl
+prediction_complete
+
+loan_approved
+loan_rejected
+approval_probability
+risk_category
+eligibility_verified
+decision_generated
+
+AI_ENGINE_ACTIVE
+ML_PIPELINE_RUNNING
+DATA_STREAM_READY
+FEATURE_VECTOR_READY
+SECURE_ANALYSIS_MODE
+
+127.0.0.1
+localhost
+api_response
+system_status_ok
+memory_allocated
+cache_updated
+processing_request
+response_generated
+
+SELECT * FROM loan_data;
+FETCH applicant_details;
+ANALYZE credit_score;
+CALCULATE risk_factor;
+GENERATE prediction;
+
+>>> Initializing Model...
+>>> Loading Dataset...
+>>> Training Complete...
+>>> Validation Complete...
+>>> Ready For Prediction...
+
+root@loan-server
+/usr/bin/predict
+dataset.csv
+loan_data.csv
+feature_vector
+classification_complete
+decision_tree_depth
+entropy_calculation
+gini_index
+node_split
+leaf_node
+
+MachineLearning()
+ArtificialIntelligence()
+FinancialAnalytics()
+SmartDecisionEngine()
+
+STATUS : ONLINE
+STATUS : READY
+STATUS : PROCESSING
+STATUS : COMPLETED
+
+[ END OF STREAM ]
+
+        </div>
+
+    </div>
+
+    <!-- MAIN CONTAINER -->
+    <div class="main-container">
+
+        <div class="dashboard-card">
+
+            <h1>
+                🏦 Smart Loan Prediction
+            </h1>
+
+            <p class="subtitle">
+                Decision Tree Machine Learning Model
+            </p>
+
+            <!-- PREDICTION FORM -->
+            <form action="/predict"
+                  method="POST">
+
+                <input
+                    type="number"
+                    name="age"
+                    placeholder="Applicant Age"
+                    required>
+
+                <input
+                    type="number"
+                    name="income"
+                    placeholder="Annual Income"
+                    required>
+
+                <input
+                    type="number"
+                    name="loan_amount"
+                    placeholder="Loan Amount"
+                    required>
+
+                <input
+                    type="number"
+                    name="credit_score"
+                    placeholder="Credit Score"
+                    required>
+
+                <button type="submit">
+                    Predict Loan Status
+                </button>
+
+            </form>
+
+            <!-- RESULT -->
+            {% if prediction_text %}
+
+                <div class="result-box">
+                    {{ prediction_text }}
+                </div>
+
+            {% endif %}
+
+        </div>
+
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+
+</html>
