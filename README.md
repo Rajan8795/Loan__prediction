@@ -13,17 +13,27 @@ The system analyzes applicant details such as:
 - 📈 Credit Score
 
 and predicts whether a loan application is likely to be:
+
 ✅ Approved or ❌ Rejected
 ---
 ## 🚀 Features
 
+
 ✨ Attractive Modern UI
+
 ✨ Decision Tree Machine Learning Model
+
 ✨ Real-Time Loan Prediction
+
 ✨ Flask Backend Integration
+
+
 ✨ Responsive Design
+
 ✨ User Friendly Interface
+
 ✨ Fast Prediction Results
+
 ---
 ## 🧠 Machine Learning Workflow
 
@@ -52,21 +62,34 @@ Model integrated into Flask Web Application.
 ## 📂 Project Structure
 
 LoanPrediction_Project/
+
 │
+
 ├── app.py
+
 ├── model.py
+
 ├── loan_data.csv
+
 ├── loan_model.pkl
+
 ├── requirements.txt
+
 ├── README.md
+
 │
+
 ├── templates/
+
 │   └── index.html
+
 │
+
 └── static/
+    
     ├── style.css
+    
     └── script.js
-```
 
 ---
 
